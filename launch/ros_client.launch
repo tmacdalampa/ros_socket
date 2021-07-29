@@ -1,0 +1,6 @@
+<launch>
+  <param name="/host" type="string" value="localhost" />
+  <param name="/port" type="int" value="8000" />
+  <param name="/signal" type="string" value="AMIR_GOGO" />
+	<node name="trigger_amir2_client" pkg="ros_socket" type="ros_client.py" />
+</launch>
